@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience Professional</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a class="menu-links" href="/index.html" class="logo">Home</a>
+            <a class="menu-links" href="/about.html">About me</a>
+            <a class="menu-links" href="/education.html">Academic Life</a>
+        </nav>
+    </header>
+
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">Professional Experience</h1>
+            <ul class="list">
+                <li data-target="tranxfer">Business Development Specialist at Tranxfer</li>
+                <li data-target="camel">Business Development Specialist at Camel Secure</li>
+                <li data-target="nexo">Business Developer at Nexo Plus</li>
+                <li data-target="scotia">KAM at Scotiabank Chile</li>
+                <li data-target="vtr">Outbound Sales Executive at VTR - Liberty Global</li>
+                <li data-target="nextel">B2B Sales Leader at Nextel Chile</li>
+                <li data-target="kc">B2B Sales Leader at Kimberly-Clark Chile</li>
+                <li data-target="masCerca">Outbound Sales Executive at MasCerca</li>
+            </ul>
+            <h2 id="tranxfer" class="presentacion__enlaces__subtitulo">Position: Business Development Specialist<br>Company: Tranxfer</h2>
+            <p class="presentacion__contenido__texto">
+                2023 October - present.<br>Responsible for generating business opportunities by creating spaces for conversation with qualified ICPs. Market analysis and research, Lead generation, B2B marketing strategies, lead rating, weekly meeting creation, new customer creation, email marketing and cold calls.<br></br>
+                –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+            </p>
+            <h2 id="camel" class="presentacion__enlaces__subtitulo">Position: Business Development Specialist<br>Company: Camel Secure</h2>
+            <p class="presentacion__contenido__texto">
+                2023 January - 2023 September.<br>Responsible for generating business opportunities by creating spaces for conversation with qualified ICPs. Market analysis and research, Lead generation, B2B marketing strategies, lead rating, weekly meeting creation, new customer creation, email marketing and cold calls.<br></br>
+                –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+            </p>
+            <h2 id="nexo" class="presentacion__enlaces__subtitulo">Position: Business Developer<br>Company: Nexo Plus</h2>
+            <p class="presentacion__contenido__texto">
+                2021 July - 2022 December.<br>Responsible of all cycle of sales. Making presentations and business opportunities by creating spaces for conversation with qualified ICPs. Market analysis and research, Lead generation, B2B marketing strategies, lead rating, weekly meeting creation, new customer creation, email marketing and cold calls.<br></br>
+                –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+            </p>
+            <h2 id="scotia" class="presentacion__enlaces__subtitulo">Position: KAM<br>Company: Scotiabank Chile</h2>
+            <p class="presentacion__contenido__texto">
+                2018 Octuber - 2021 June.<br>Financial advice for premium customers of the bank. Opening of current accounts, consumer credits and mortgages. Management of financial services in high equity portfolios, preferred and classic segments.<br></br>
+                –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+            </p>
+            <h2 id="vtr" class="presentacion__enlaces__subtitulo">Position: Outbound Sales Executive<br>Company: VTR - Liberty Global</h2>
+            <p class="presentacion__contenido__texto">
+                2013 July - 2018 September.<br>Making sales of telecommunications services for new customers, B2C & B2B. Achieving the 1st places in sales for several months.<br></br>
+                –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+            </p>
+            <h2 id="nextel" class="presentacion__enlaces__subtitulo">Position: B2B Sales Leader<br>Company: Nextel Chile</h2>
+            <p class="presentacion__contenido__texto">
+                2009 November - 2013 January.<br>Leading for more than 3 years the area outbound B2B sales at Nextel, reaching and overfulfilling team goals.<br></br>
+            –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+            </p>
+            <h2 id="kc" class="presentacion__enlaces__subtitulo">Position: B2B Sales Leader<br>Company: Kimberly-Clark Chile</h2>
+            <p class="presentacion__contenido__texto">
+                2008 March - 2009 September.<br>
+                In charge of the b2b sales team achieving the goals and improving the productivity of the company.<br></br>
+            –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+            </p>
+            <h2 id="masCerca" class="presentacion__enlaces__subtitulo">Position: Outbound Sales Executive<br>Company: MasCerca</h2>
+            <p class="presentacion__contenido__texto">
+                2007 October - 2008 February.<br>Performing VTR customer retention managing to maintain
+                internet, telephone and cable TV services. Executive #1 in reactivation ranking.
+            </p>
+            <script>
+                const list = document.querySelector('.list');
+                list.addEventListener('click', (e) => {
+                    const target = e.target.getAttribute('data-target');
+                    const element = document.getElementById(target);
+                    element.scrollIntoView({ behavior:"smooth", block:"center"});
+                });
+            </script>
+        </section>
+        <div class="imageMain">
+            <img src="/images/ImageMainAbout.png" alt="Javi en el laptop con fondo multicolor">
+            <img src="/images/ImageTimeIsNow.png" alt="Javi en el laptop con fondo multicolor">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>
+            © 2024 Javi Cifuentes. Todos los derechos reservados.
+        </p>
+    </footer>
+</body>
+</html>
