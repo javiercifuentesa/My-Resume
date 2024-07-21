@@ -24,7 +24,7 @@ body{
 }
 
 header{
-    padding: 1% 10%;
+    padding: 2% 10%;
     font-family: var(--fuente-primaria);
     animation: fadeIn 2s ease;
 }
@@ -41,7 +41,7 @@ header{
 .menu {
     display: flex;
     gap: 80px;
-    padding: 4%;
+    padding: 1%;
     justify-content: flex-end;
 }
 
@@ -67,7 +67,7 @@ header{
 }
 
 #imageMain {
-    width: 50%;
+    width: 40%;
 }
 
 .imageMain {
@@ -75,7 +75,7 @@ header{
     flex-direction: column;
     gap: 30vw;
     padding: 1%;
-    width: 50%;
+    width: 40%;
 }
 
 .titulo-destaque {
