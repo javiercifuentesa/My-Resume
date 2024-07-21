@@ -1,4 +1,4 @@
-﻿# My-Resume. Hola!, bienvenid@ a mi proyecto: Resume o CV.
+﻿# Hola!, bienvenid@ a mi proyecto: Resume o CV.
  ![imagen](https://my-resume-one-pearl.vercel.app/images/ImageExperience.png)
 
 ## Herramientas utilizadas:
